@@ -10,37 +10,37 @@
 </head>
 <body>
 
-    <div class="title">
-        <h1>!Thidarat D-R-U-D!</h1>
-        <p>Things I forgot to do:</p>
-    </div>
+  <div class="title">
+    <h1>!thidarat To-Do!</h1>
+    <p>Things I forgot to do:</p>
+</div>
 
 <div class="form">
-    <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
-    <input type="text" id="add-todo" placeholder="Thing">
-    <input type="submit" value="Add" class="btn btn-primary">
-    </form>
-    <p>You Have: </p>
-    <p id="counter"></p>
+<form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+<input type="text" id="add-todo" placeholder="Thing To-Do">
+<input type="submit" value="Add" class="btn btn-primary">
+</form>
+<p>You Have: </p>
+<p id="counter"></p>
 
-    <table>
-    <tr class="to-do">
-        <th><h3>To-Do:</h3></th>
-    </tr>
-        <tbody id="tasks">
-        </tbody>
-    </table>
+<table>
+<tr class="to-do">
+    <th><h3>To-Do:</h3></th>
+</tr>
+    <tbody id="tasks">
+    </tbody>
+</table>
 </div>
 
 <div id="edit-box" role="aria-hidden">
-    <form action="javascript:void(0);" method="POST" id="save-edit">
-      <input type="text" id="edit-todo">
-      <input type="submit" value="Save" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
-    </form>
-  </div>
+<form action="javascript:void(0);" method="POST" id="save-edit">
+  <input type="text" id="edit-todo">
+  <input type="submit" value="Save" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+</form>
+</div>
 
 <script src="script.js"></script>
 
-
+<br><hr>
 </body>
 </html>
